@@ -7,12 +7,9 @@
     <title>Teste de tabelas</title>
     <style>
         table{
-            width: 300px;
+            width: 400px;
+            height: 400px;
             border-collapse: collapse;
-        }
-
-        tr.linha1{
-            background-color: brown;
         }
 
         td{
@@ -20,6 +17,8 @@
             font-family: Verdana, Geneva, Tahoma, sans-serif;
             max-width: 300px;
             padding: 5px;
+            text-align: center;
+            vertical-align: middle;
         }
         .a2{
             background-color: blue;
@@ -32,6 +31,9 @@
         .a2>a:hover{
             text-decoration: underline;
             color: white;
+        }
+        .numero{
+            text-align: right;
         }
     </style>
     
@@ -69,13 +71,13 @@
                 B4
             </td>
             <tr>
-                <td>
+                <td class="numero">
                     C1
                 </td>
-                <td>
+                <td class="numero">
                     C2
                 </td>
-                <td>
+                <td class="numero">
                     C3
                 </td>
                 <td>
@@ -83,51 +85,6 @@
                 </td>
             </tr>
         </tr>
-    </table>
-    <table>
-        <tr>
-            <td>
-                V1
-            </td>
-            <td>
-                V2
-            </td>
-            <td>
-                V3
-            </td>
-            <td>
-                V4
-            </td>
-        </tr>
-        <tr>
-            <td>
-                vd
-            </td>
-            <td>
-                fg
-            </td>
-            <td>
-                re
-            </td>
-            <td>
-                ds
-            </td>
-        </tr>
-        <tr>
-            <td>
-                sd
-            </td>
-            <td>
-                sd
-            </td>
-            <td>
-                gf
-            </td>
-            <td>
-                hf
-            </td>
-        </tr>
-
     </table>
 </body>
 </html>
